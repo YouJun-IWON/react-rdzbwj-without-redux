@@ -1,0 +1,11 @@
+#container,
+#container > div div {
+  border: 5px solid red;
+  margin: 10px;
+}
+/* it targets any div elements that are two levels deep from the #container element. */
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
